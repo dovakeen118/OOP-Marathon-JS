@@ -13,7 +13,7 @@ describe('A Gorilla', () => {
     expect(gorilla.name).toEqual(gorillaName)
   })
 
-  it('speaks its tagline', () => {
+  it.only('speaks its tagline', () => {
     expect(gorilla.speak()).toEqual('Bob got a bad feeling about this...')
   })
 
